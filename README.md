@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🏡 Kasa – Location d’appartements entre particuliers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application web de location immobilière moderne, performante et responsive.  
+Projet réalisé dans le cadre de la formation **OpenClassrooms – Développeur Web**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Aperçu
 
-### `npm start`
+⚛️ React • 🎨 SCSS • ⚡ Performant et SEO optimisé  
+🌑 Mode sombre – 📱 100% Responsive – 🧑‍🦯 Accessible
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Arborescence
 
-### `npm test`
+kasa/ ├── public/ │ └── data/ │ └── logements.json ├── src/ │ ├── assets/ │ ├── components/ │ ├── context/ │ ├── hooks/ │ ├── pages/ │ ├── styles/ │ ├── App.js │ ├── index.js ├── package.json ├── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔧 Fonctionnalités principales
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ **Navigation fluide** avec React Router DOM
+- ✅ **Dark mode / Light mode** via Context API + variables CSS
+- ✅ **Affichage dynamique** des logements depuis un fichier JSON
+- ✅ **Carousel d’images** avec transition fade
+- ✅ **Dropdowns** avec animation fluide
+- ✅ **Pages dynamiques** avec route dynamique (`/logement/:id`)
+- ✅ **Page 404 personnalisée** en cas d’erreur
+- ✅ **Accessibilité** renforcée (ARIA, focus-visible, images lazy-load)
+- ✅ **SEO optimisé** dynamiquement avec Helmet
+- ✅ **Design responsive** pour desktop, tablette et mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Stack technique
 
-### `npm run eject`
+- **React 18** (Single Page Application moderne)
+- **React Router DOM** (navigation client-side)
+- **SCSS** (modularisation, responsive design)
+- **React Helmet Async** (optimisation SEO)
+- **Context API** (thème dark/light global)
+- **ESLint + jsx-a11y** (accessibilité et bonnes pratiques React)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Validations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ✔️ Structure HTML5 sémantique (`header`, `main`, `footer`)
+- ✔️ Navigation clavier + ARIA (`aria-`, `tabindex`, `focus-visible`)
+- ✔️ Mobile-first et responsive (`@media` queries SCSS)
+- ✔️ Performances web optimisées (lazy loading images, SEO balisé)
+- ✔️ Code propre, modulaire et commenté
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 👨‍💻 Auteur
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Projet réalisé par **Lara 0.**  
+OpenClassrooms – Projet 7 – Développeur d'applications React  
+📆 Année : 2025
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🏷️ Badges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive%20Design-%2300C7B7?style=flat-square)
+![Accessible](https://img.shields.io/badge/Accessibilit%C3%A9-AA-blue?style=flat-square)
+![SEO Optimisé](https://img.shields.io/badge/SEO-Optimis%C3%A9-green?style=flat-square)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
