@@ -1,0 +1,23 @@
+@import './variables';
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 6px solid lighten($primary-color, 30%);
+  border-top: 6px solid $primary-color;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

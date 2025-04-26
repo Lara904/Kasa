@@ -1,0 +1,56 @@
+@import './variables';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: $light-gray;
+  color: $secondary-color;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 768px) {
+    width: 90vw;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .card-title {
+    padding: 15px;
+    font-weight: bold;
+  }
+
+  body.dark & {
+    background-color: #2a2a2a;
+    color: white;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .card img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card img {
+    height: 120px;
+  }
+}
+
+/* Accessibilité Focus */
+a:focus-visible {
+  outline: 2px solid #ff6060;
+}

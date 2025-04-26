@@ -1,0 +1,20 @@
+@import './variables';
+
+.about {
+  padding: $padding-section;
+  display: flex;
+  justify-content: center;
+
+  .about-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  body.dark & {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+  }
+}

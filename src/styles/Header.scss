@@ -1,0 +1,84 @@
+@import './variables';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a2a2a; // couleur FONCÉE par défaut (clair ou sombre)
+  color: $white;
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: $primary-color;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: $white;
+      font-weight: 500;
+
+      &.active {
+        border-bottom: 2px solid $primary-color;
+      }
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    button {
+      background: none;
+      border: none;
+      margin-left: 20px;
+      font-size: 20px;
+      cursor: pointer;
+      color: $white;
+    }
+  }
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: $white;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 2px;
+      background-color: $primary-color;
+      transition: width 0.3s ease;
+    }
+  
+    &:hover {
+      color: $primary-color;
+  
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+  
+  // DARK MODE (légère variante si tu veux)
+  body.dark & {
+    background-color: #1f1f1f;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #ff6060;
+  outline-offset: 2px;
+  transition: outline 0.2s ease;
+}

@@ -1,0 +1,15 @@
+@import './variables';
+
+.rating {
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+  
+    .star {
+      color: #e3e3e3;
+  
+      &.filled {
+        color: $primary-color;
+      }
+    }
+  }

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "title": "Appartement cosy à Paris",
+    "location": "Paris, France",
+    "cover": "/images/paris.jpg",
+    "pictures": ["/images/paris1.jpg", "/images/paris2.jpg"],
+    "tags": ["Confort", "Calme"],
+    "host": {
+      "name": "Alice Dupont",
+      "picture": "/images/host1.jpg"
+    },
+    "description": "Un appartement charmant au cœur de Paris avec une vue sur les toits.",
+    "equipments": ["Wi-Fi", "Cuisine équipée", "Télévision", "Chauffage"],
+    "rating": "4"
+  },
+  {
+    "id": "2",
+    "title": "Villa au bord de la mer",
+    "location": "Nice, Côte d'Azur",
+    "cover": "/images/mer.jpg",
+    "pictures": ["/images/mer1.jpg", "/images/mer2.jpg"],
+    "tags": ["Vue mer", "Piscine", "Luxe"],
+    "host": {
+      "name": "Marc Laurent",
+      "picture": "/images/host2.jpg"
+    },
+    "description": "Villa de rêve avec piscine privée et accès direct à la plage.",
+    "equipments": ["Climatisation", "Wi-Fi", "Cuisine moderne", "Piscine", "Parking"],
+    "rating": "5"
+  },
+  {
+    "id": "3",
+    "title": "Cabane en montagne",
+    "location": "Chamonix, Alpes",
+    "cover": "/images/montagne.jpg",
+    "pictures": ["/images/montagne1.jpg", "/images/montagne2.jpg"],
+    "tags": ["Nature", "Randonnée", "Authentique"],
+    "host": {
+      "name": "Claire Bernard",
+      "picture": "/images/host3.jpg"
+    },
+    "description": "Un refuge douillet pour les amoureux de la nature et du calme.",
+    "equipments": ["Cheminée", "Cuisine rustique", "Chauffage bois", "Vue panoramique"],
+    "rating": "3"
+  }
+]
