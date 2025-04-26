@@ -57,7 +57,7 @@ kasa/ ├── public/ │ └── data/ │ └── logements.json ├─�
 ## 👨‍💻 Auteur
 
 Projet réalisé par **Lara 0.**  
-OpenClassrooms – Projet 7 – Développeur d'applications React  
+OpenClassrooms – Projet 7 – Intégrateur Web 
 📆 Année : 2025
 
 ---
